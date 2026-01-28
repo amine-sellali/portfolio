@@ -10,7 +10,7 @@ function Sidebar() {
             <h2>Amine Sellali</h2>
             <p>Software Developer</p>
 
-            <p>amine.sellali@email.com</p>
+            <p>aminesellali@outlook.com</p>
             <p>Lille, France</p>
 
             <div>
