@@ -1,3 +1,5 @@
+import "../styles/portfolio.css";
+
 function Portfolio() {
   return (
     <section className="article portfolio">

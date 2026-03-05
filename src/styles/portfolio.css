@@ -1,0 +1,57 @@
+/* ============================= */
+/* PORTFOLIO PAGE                */
+/* ============================= */
+
+.portfolio-posts {
+    margin-top: 10px;
+}
+
+.portfolio-posts-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.portfolio-post-item a {
+    display: block;
+    background: var(--eerie-black-1);
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid var(--jet);
+    transition: all 0.2s ease;
+}
+
+.portfolio-post-item a:hover {
+    transform: translateY(-4px);
+    border-color: var(--sky-blue-crayola);
+}
+
+/* content */
+
+.portfolio-content {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.portfolio-category {
+    font-size: 0.75rem;
+    color: var(--sky-blue-crayola);
+    font-weight: 500;
+}
+
+.portfolio-item-title {
+    font-size: 1rem;
+}
+
+.portfolio-text {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--light-gray);
+}
+
+@media (max-width: 700px) {
+    .portfolio-posts-list {
+        grid-template-columns: 1fr;
+    }
+}

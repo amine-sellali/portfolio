@@ -1,0 +1,106 @@
+/* ============================= */
+/* RESUME PAGE                   */
+/* ============================= */
+
+.article-title {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+/* timeline */
+
+.timeline {
+    margin-bottom: 40px;
+}
+
+.title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.icon-box {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    background: var(--eerie-black-1);
+    border: 1px solid var(--jet);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline-list {
+    margin-left: 16px;
+    border-left: 2px solid var(--jet);
+    padding-left: 18px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 26px;
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -26px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    background: var(--sky-blue-crayola);
+    border-radius: 50%;
+}
+
+.timeline-item-title {
+    margin-bottom: 6px;
+}
+
+.timeline-list span {
+    font-size: 0.8rem;
+    color: var(--sky-blue-crayola);
+}
+
+.timeline-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--light-gray);
+}
+
+/* skills */
+
+.skills-title {
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.skills-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.title-wrapper data {
+    margin-left: auto;
+    font-size: 0.8rem;
+    color: var(--light-gray-70);
+}
+
+.skill-progress-bg {
+    width: 100%;
+    height: 8px;
+    background: var(--jet);
+    border-radius: 6px;
+}
+
+.skill-progress-fill {
+    height: 100%;
+    background: var(--sky-blue-crayola);
+    border-radius: 6px;
+}

@@ -1,0 +1,92 @@
+/* ============================= */
+/* ABOUT PAGE                    */
+/* ============================= */
+
+.article-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* about text */
+
+.about-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--light-gray);
+    margin-bottom: 40px;
+}
+
+.about-text p {
+    margin-bottom: 14px;
+}
+
+/* highlights */
+
+.highlights {
+    margin-bottom: 40px;
+}
+
+.highlights-title {
+    margin-bottom: 16px;
+}
+
+.highlights-list {
+    display: flex;
+    gap: 16px;
+}
+
+.highlights-item {
+    flex: 1;
+    background: var(--eerie-black-1);
+    border-radius: 12px;
+    padding: 18px;
+    text-align: center;
+    border: 1px solid var(--jet);
+}
+
+.service-item-title {
+    font-size: 1.8rem;
+    color: var(--sky-blue-crayola);
+}
+
+.service-item-text {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    color: var(--light-gray-70);
+}
+
+/* featured projects */
+
+.showcase-header {
+    margin-bottom: 16px;
+}
+
+.showcase-posts-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+
+.showcase-post-item a {
+    display: block;
+    background: var(--eerie-black-1);
+    border-radius: 12px;
+    padding: 18px;
+    border: 1px solid var(--jet);
+    transition: all 0.2s ease;
+}
+
+.showcase-post-item a:hover {
+    transform: translateY(-4px);
+    border-color: var(--sky-blue-crayola);
+}
+
+.showcase-item-title {
+    margin-bottom: 8px;
+}
+
+.showcase-text {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--light-gray);
+}
