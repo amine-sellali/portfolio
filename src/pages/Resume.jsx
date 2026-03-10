@@ -16,7 +16,7 @@ function Resume() {
                     <h3 className="h3">Experience</h3>
                 </div>
 
-                <ol className="timeline-list">
+                <ul className="timeline-list">
                     <li className="timeline-item">
                         <h4 className="h4 timeline-item-title">
                             Software Developer – Chantiers de l’Atlantique
@@ -65,7 +65,7 @@ function Resume() {
                             research-oriented software and hardware experimentation.
                         </p>
                     </li>
-                </ol>
+                </ul>
             </section>
 
             {/* Education */}
@@ -77,7 +77,7 @@ function Resume() {
                     <h3 className="h3">Education</h3>
                 </div>
 
-                <ol className="timeline-list">
+                <ul className="timeline-list">
                     <li className="timeline-item">
                         <h4 className="h4 timeline-item-title">
                             MBA – Business School of Management, Lille
@@ -121,7 +121,7 @@ function Resume() {
                             mathematics and sciences.
                         </p>
                     </li>
-                </ol>
+                </ul>
             </section>
 
             {/* Skills */}

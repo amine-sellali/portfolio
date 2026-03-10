@@ -1,7 +1,9 @@
 .sidebar {
-  width: 320px;
+  height: 100vh;
   display: flex;
   justify-content: center;
+  position: sticky;
+  top: 0;
 }
 
 .sidebar-card {

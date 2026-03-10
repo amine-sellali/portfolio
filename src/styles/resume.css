@@ -7,7 +7,9 @@
     margin-bottom: 30px;
 }
 
-/* timeline */
+/* ============================= */
+/* TIMELINE                      */
+/* ============================= */
 
 .timeline {
     margin-bottom: 40px;
@@ -16,8 +18,8 @@
 .title-wrapper {
     display: flex;
     align-items: center;
-    gap: 12px;
-    margin-bottom: 18px;
+    gap: 14px;
+    margin-bottom: 28px;
 }
 
 .icon-box {
@@ -31,44 +33,83 @@
     justify-content: center;
 }
 
+/* list */
+
 .timeline-list {
-    margin-left: 16px;
-    border-left: 2px solid var(--jet);
-    padding-left: 18px;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    margin-left: 55px;
 }
+
+/* vertical line */
+
+.timeline-list::before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 8px;
+    bottom: 8px;
+    width: 2px;
+    background: var(--jet);
+}
+
+/* item */
 
 .timeline-item {
     position: relative;
-    margin-bottom: 26px;
 }
+
+.timeline-item:not(:last-child) {
+    margin-bottom: 35px;
+}
+
+/* dots */
 
 .timeline-item::before {
     content: "";
     position: absolute;
-    left: -26px;
+
+    left: -34px;
     top: 6px;
-    width: 10px;
-    height: 10px;
+
+    width: 8px;
+    height: 8px;
+
     background: var(--sky-blue-crayola);
     border-radius: 50%;
+
+    box-shadow: 0 0 0 4px var(--eerie-black-2);
 }
+
+/* title */
 
 .timeline-item-title {
     margin-bottom: 6px;
 }
 
+/* date */
+
 .timeline-list span {
-    font-size: 0.8rem;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.85rem;
     color: var(--sky-blue-crayola);
 }
 
+/* text */
+
 .timeline-text {
     font-size: 0.9rem;
-    line-height: 1.5;
+    line-height: 1.6;
     color: var(--light-gray);
 }
 
-/* skills */
+/* ============================= */
+/* SKILLS                        */
+/* ============================= */
 
 .skills-title {
     margin-bottom: 20px;
