@@ -26,11 +26,23 @@
     width: 36px;
     height: 36px;
     border-radius: 10px;
+
     background: var(--eerie-black-1);
     border: 1px solid var(--jet);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+    display: grid;
+    place-items: center;
+    /* perfect centering */
+
+    color: var(--sky-blue-crayola);
+    /* makes SVG blue */
+}
+
+.icon-box svg {
+    width: 18px;
+    height: 18px;
+    display: block;
+    /* removes inline baseline shift */
 }
 
 /* list */
