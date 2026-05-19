@@ -1,10 +1,12 @@
 import "../styles/portfolio.css";
+import { useLanguage } from "../context/LanguageContext";
 
 function Portfolio() {
+  const { t } = useLanguage();
   return (
     <section className="article portfolio">
       <header>
-        <h2 className="h2 article-title">Portfolio</h2>
+        <h2 className="h2 article-title">{t("portfolio.title")}</h2>
       </header>
 
       <section className="portfolio-posts">
@@ -12,11 +14,10 @@ function Portfolio() {
           <li className="portfolio-post-item">
             <a href="https://github.com/TON_USERNAME/portfolio" target="_blank" rel="noopener noreferrer">
               <div className="portfolio-content">
-                <p className="portfolio-category">Web</p>
-                <h3 className="h3 portfolio-item-title">Personal Portfolio</h3>
+                <p className="portfolio-category">{t("portfolio.projects.project1.category")}</p>
+                <h3 className="h3 portfolio-item-title">{t("portfolio.projects.project1.title")}</h3>
                 <p className="portfolio-text">
-                  Portfolio website built with React and Vite to showcase my
-                  background, experience, and projects.
+                  {t("portfolio.projects.project1.description")}
                 </p>
               </div>
             </a>
@@ -25,11 +26,10 @@ function Portfolio() {
           <li className="portfolio-post-item">
             <a href="https://github.com/TON_USERNAME/django-project" target="_blank" rel="noopener noreferrer">
               <div className="portfolio-content">
-                <p className="portfolio-category">Backend</p>
-                <h3 className="h3 portfolio-item-title">Django Web Application</h3>
+                <p className="portfolio-category">{t("portfolio.projects.project2.category")}</p>
+                <h3 className="h3 portfolio-item-title">{t("portfolio.projects.project2.title")}</h3>
                 <p className="portfolio-text">
-                  Web application developed with Python and Django for
-                  business workflow management.
+                  {t("portfolio.projects.project2.description")}
                 </p>
               </div>
             </a>
@@ -38,11 +38,10 @@ function Portfolio() {
           <li className="portfolio-post-item">
             <a href="https://github.com/TON_USERNAME/embedded-project" target="_blank" rel="noopener noreferrer">
               <div className="portfolio-content">
-                <p className="portfolio-category">Embedded</p>
-                <h3 className="h3 portfolio-item-title">Embedded Systems Project</h3>
+                <p className="portfolio-category">{t("portfolio.projects.project3.category")}</p>
+                <h3 className="h3 portfolio-item-title">{t("portfolio.projects.project3.title")}</h3>
                 <p className="portfolio-text">
-                  Embedded software project involving system modeling,
-                  testing, and validation.
+                  {t("portfolio.projects.project3.description")}
                 </p>
               </div>
             </a>

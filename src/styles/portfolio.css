@@ -59,3 +59,34 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 480px) {
+    .portfolio-posts {
+        margin-top: 8px;
+    }
+
+    .portfolio-posts-list {
+        gap: 14px;
+    }
+
+    .portfolio-post-item a {
+        padding: 16px;
+        border-radius: 10px;
+    }
+
+    .portfolio-content {
+        gap: 5px;
+    }
+
+    .portfolio-category {
+        font-size: 0.7rem;
+    }
+
+    .portfolio-item-title {
+        font-size: 0.95rem;
+    }
+
+    .portfolio-text {
+        font-size: 0.8rem;
+    }
+}

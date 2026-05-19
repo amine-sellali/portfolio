@@ -1,10 +1,12 @@
 import "../styles/contact.css";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import { useLanguage } from "../context/LanguageContext";
 
 function Contact() {
 
   const form = useRef();
+  const { t } = useLanguage();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -16,11 +18,11 @@ function Contact() {
       import.meta.env.VITE_EMAIL_PUBLIC_KEY
     ).then(
       () => {
-        alert("Message sent successfully!");
+        alert(t("contact.form.successMessage"));
         form.current.reset();
       },
       () => {
-        alert("Failed to send message.");
+        alert(t("contact.form.errorMessage"));
       }
     );
   };
@@ -29,12 +31,12 @@ function Contact() {
     <section className="article contact">
 
       <header>
-        <h2 className="h2 article-title">Contact</h2>
+        <h2 className="h2 article-title">{t("contact.title")}</h2>
       </header>
 
       <div className="contact-form-box">
 
-        <h3 className="h3 form-title">Contact Form</h3>
+        <h3 className="h3 form-title">{t("contact.formTitle")}</h3>
 
         <form ref={form} onSubmit={sendEmail} className="contact-form">
 
@@ -43,7 +45,7 @@ function Contact() {
             <input
               type="text"
               name="name"
-              placeholder="Full Name"
+              placeholder={t("contact.form.name")}
               className="form-input"
               required
             />
@@ -51,7 +53,7 @@ function Contact() {
             <input
               type="email"
               name="email"
-              placeholder="Email Address"
+              placeholder={t("contact.form.email")}
               className="form-input"
               required
             />
@@ -60,13 +62,13 @@ function Contact() {
 
           <textarea
             name="message"
-            placeholder="Your Message"
+            placeholder={t("contact.form.message")}
             className="form-input"
             required
           ></textarea>
 
           <button type="submit" className="form-btn">
-            Send Message
+            {t("contact.form.send")}
           </button>
 
         </form>

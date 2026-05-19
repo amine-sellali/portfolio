@@ -157,3 +157,162 @@
     background: var(--sky-blue-crayola);
     border-radius: 6px;
 }
+
+/* ============================= */
+/* RESPONSIVE                    */
+/* ============================= */
+
+@media (max-width: 768px) {
+    .article-title {
+        font-size: 1.3rem;
+        margin-bottom: 24px;
+    }
+
+    .timeline {
+        margin-bottom: 30px;
+    }
+
+    .title-wrapper {
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+
+    .icon-box {
+        width: 32px;
+        height: 32px;
+    }
+
+    .icon-box svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .title-wrapper h3 {
+        font-size: 1.1rem;
+    }
+
+    .timeline-list {
+        margin-left: 45px;
+    }
+
+    .timeline-list::before {
+        left: -26px;
+    }
+
+    .timeline-item::before {
+        left: -30px;
+    }
+
+    .timeline-item:not(:last-child) {
+        margin-bottom: 28px;
+    }
+
+    .timeline-item-title {
+        font-size: 1rem;
+    }
+
+    .timeline-list span {
+        font-size: 0.8rem;
+    }
+
+    .timeline-text {
+        font-size: 0.85rem;
+    }
+
+    .skills-title {
+        font-size: 1.1rem;
+        margin-bottom: 16px;
+    }
+
+    .skills-list {
+        gap: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .article-title {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+
+    .timeline {
+        margin-bottom: 24px;
+    }
+
+    .title-wrapper {
+        gap: 10px;
+        margin-bottom: 16px;
+    }
+
+    .icon-box {
+        width: 28px;
+        height: 28px;
+    }
+
+    .icon-box svg {
+        width: 14px;
+        height: 14px;
+    }
+
+    .title-wrapper h3 {
+        font-size: 1rem;
+    }
+
+    .timeline-list {
+        margin-left: 35px;
+    }
+
+    .timeline-list::before {
+        left: -22px;
+    }
+
+    .timeline-item::before {
+        left: -26px;
+        width: 6px;
+        height: 6px;
+    }
+
+    .timeline-item:not(:last-child) {
+        margin-bottom: 24px;
+    }
+
+    .timeline-item-title {
+        font-size: 0.9rem;
+        margin-bottom: 4px;
+    }
+
+    .timeline-list span {
+        font-size: 0.75rem;
+        margin-bottom: 6px;
+    }
+
+    .timeline-text {
+        font-size: 0.8rem;
+        line-height: 1.5;
+    }
+
+    .skills-title {
+        font-size: 1rem;
+        margin-bottom: 14px;
+    }
+
+    .skills-list {
+        gap: 12px;
+    }
+
+    .skills-item {
+        gap: 5px;
+    }
+
+    .title-wrapper h5 {
+        font-size: 0.9rem;
+    }
+
+    .title-wrapper data {
+        font-size: 0.75rem;
+    }
+
+    .skill-progress-bg {
+        height: 6px;
+    }
+}

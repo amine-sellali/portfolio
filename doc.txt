@@ -1,0 +1,2 @@
+LANCER LE PROJET:
+npm run dev

@@ -1,52 +1,50 @@
 import "../styles/about.css";
+import { useLanguage } from "../context/LanguageContext";
 
 function About() {
+    const { t } = useLanguage();
     return (
         <section className="article about">
             <header>
-                <h2 className="h2 article-title">About</h2>
+                <h2 className="h2 article-title">{t("about.title")}</h2>
             </header>
 
             <section className="about-text">
                 <p>
-                    I’m Amine Sellali, a software developer based in France.
-                    I enjoy building clean, maintainable applications and learning
-                    new technologies along the way.
+                    {t("about.intro1")}
                 </p>
 
                 <p>
-                    My background is in software engineering, with experience in
-                    fullstack development and a strong interest in scalable systems
-                    and well-structured codebases.
+                    {t("about.intro2")}
                 </p>
             </section>
 
             <section className="highlights">
-                <h3 className="h3 highlights-title">Highlights</h3>
+                <h3 className="h3 highlights-title">{t("about.highlights.title")}</h3>
 
                 <ul className="highlights-list has-scrollbar">
                     <li className="highlights-item">
                         <h2 className="h2 service-item-title">3+</h2>
-                        <p className="service-item-text">YEARS OF EXPERIENCE</p>
+                        <p className="service-item-text">{t("about.highlights.experience")}</p>
                     </li>
 
                     <li className="highlights-item">
                         <h2 className="h2 service-item-title">10+</h2>
-                        <p className="service-item-text">PROJECTS COMPLETED</p>
+                        <p className="service-item-text">{t("about.highlights.projects")}</p>
                     </li>
 
                     <li className="highlights-item">
                         <h2 className="h2 service-item-title">5+</h2>
-                        <p className="service-item-text">TECH STACKS USED</p>
+                        <p className="service-item-text">{t("about.highlights.stacks")}</p>
                     </li>
                 </ul>
             </section>
 
             <section className="showcase-posts">
                 <header className="showcase-header">
-                    <h3 className="h3 showcase-title">Featured Projects</h3>
+                    <h3 className="h3 showcase-title">{t("about.featured.title")}</h3>
                     <p className="showcase-text">
-                        A selection of projects that reflect my technical journey.
+                        {t("about.featured.text")}
                     </p>
                 </header>
 
@@ -54,10 +52,9 @@ function About() {
                     <li className="showcase-post-item">
                         <a href="https://github.com/TON_USERNAME" target="_blank" rel="noopener noreferrer">
                             <div className="showcase-content">
-                                <h3 className="h3 showcase-item-title">Portfolio Website</h3>
+                                <h3 className="h3 showcase-item-title">{t("about.featured.project1.title")}</h3>
                                 <p className="showcase-text">
-                                    Personal portfolio built with React, focusing on clean architecture
-                                    and modern UI.
+                                    {t("about.featured.project1.description")}
                                 </p>
                             </div>
                         </a>
@@ -66,9 +63,9 @@ function About() {
                     <li className="showcase-post-item">
                         <a href="https://github.com/TON_USERNAME" target="_blank" rel="noopener noreferrer">
                             <div className="showcase-content">
-                                <h3 className="h3 showcase-item-title">Side Project</h3>
+                                <h3 className="h3 showcase-item-title">{t("about.featured.project2.title")}</h3>
                                 <p className="showcase-text">
-                                    A personal project to experiment with new technologies and patterns.
+                                    {t("about.featured.project2.description")}
                                 </p>
                             </div>
                         </a>

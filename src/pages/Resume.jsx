@@ -1,10 +1,12 @@
 import "../styles/resume.css";
+import { useLanguage } from "../context/LanguageContext";
 
 function Resume() {
+    const { t } = useLanguage();
     return (
         <section className="article resume">
             <header>
-                <h2 className="h2 article-title">Resume</h2>
+                <h2 className="h2 article-title">{t("resume.title")}</h2>
             </header>
 
             {/* Experience */}
@@ -15,56 +17,47 @@ function Resume() {
                             <path d="M5 2a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2h3.5A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5H14a.5.5 0 0 1-1 0H3a.5.5 0 0 1-1 0h-.5A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2zm1 0h4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1M1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5H3V3zM15 12.5v-9a.5.5 0 0 0-.5-.5H13v10h1.5a.5.5 0 0 0 .5-.5m-3 .5V3H4v10z" />
                         </svg>
                     </div>
-                    <h3 className="h3">Experience</h3>
+                    <h3 className="h3">{t("resume.experience.title")}</h3>
                 </div>
 
                 <ul className="timeline-list">
                     <li className="timeline-item">
                         <h4 className="h4 timeline-item-title">
-                            Software Developer – Chantiers de l’Atlantique
+                            {t("resume.experience.job1.title")}
                         </h4>
-                        <span>2024 — Present</span>
+                        <span>{t("resume.experience.job1.period")}</span>
                         <p className="timeline-text">
-                            Development of a web application using Python and Django to manage
-                            operational workflows. Implementation of CRUD features, business
-                            rules, and data persistence with a focus on code quality and
-                            maintainability.
+                            {t("resume.experience.job1.description")}
                         </p>
                     </li>
 
                     <li className="timeline-item">
                         <h4 className="h4 timeline-item-title">
-                            Software Developer (TMA) – L’Oréal
+                            {t("resume.experience.job2.title")}
                         </h4>
-                        <span>2023 — 2024</span>
+                        <span>{t("resume.experience.job2.period")}</span>
                         <p className="timeline-text">
-                            Worked in application maintenance (TMA) on enterprise software.
-                            Bug fixing, feature enhancements, and collaboration with functional
-                            teams to ensure application stability and performance.
+                            {t("resume.experience.job2.description")}
                         </p>
                     </li>
 
                     <li className="timeline-item">
                         <h4 className="h4 timeline-item-title">
-                            Embedded Software Intern – Aerospace Embedded Solutions (Germany)
+                            {t("resume.experience.job3.title")}
                         </h4>
-                        <span>2022</span>
+                        <span>{t("resume.experience.job3.period")}</span>
                         <p className="timeline-text">
-                            Tested and validated software architectures using MATLAB System
-                            Composer. Participated in modeling, verification, and documentation
-                            of embedded systems in an aerospace context.
+                            {t("resume.experience.job3.description")}
                         </p>
                     </li>
 
                     <li className="timeline-item">
                         <h4 className="h4 timeline-item-title">
-                            Research Intern – CRIStAL Laboratory (Lille)
+                            {t("resume.experience.job4.title")}
                         </h4>
-                        <span>2021</span>
+                        <span>{t("resume.experience.job4.period")}</span>
                         <p className="timeline-text">
-                            Internship at the Computer Science, Signal, and Automatic Control
-                            Research Center. Studied embedded systems and participated in
-                            research-oriented software and hardware experimentation.
+                            {t("resume.experience.job4.description")}
                         </p>
                     </li>
                 </ul>
@@ -79,51 +72,47 @@ function Resume() {
                             <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z" />
                         </svg>
                     </div>
-                    <h3 className="h3">Education</h3>
+                    <h3 className="h3">{t("resume.education.title")}</h3>
                 </div>
 
                 <ul className="timeline-list">
                     <li className="timeline-item">
                         <h4 className="h4 timeline-item-title">
-                            MBA – Business School of Management, Lille
+                            {t("resume.education.degree1.title")}
                         </h4>
-                        <span>2025</span>
+                        <span>{t("resume.education.degree1.period")}</span>
                         <p className="timeline-text">
-                            Master of Business Administration with a focus on management,
-                            strategy, and organizational performance.
+                            {t("resume.education.degree1.description")}
                         </p>
                     </li>
 
                     <li className="timeline-item">
                         <h4 className="h4 timeline-item-title">
-                            Master Degree in Embedded Systems – Polytech Lille
+                            {t("resume.education.degree2.title")}
                         </h4>
-                        <span>2022 — 2024</span>
+                        <span>{t("resume.education.degree2.period")}</span>
                         <p className="timeline-text">
-                            Engineering degree specialized in embedded systems, combining
-                            software development, electronics, and system-level design.
+                            {t("resume.education.degree2.description")}
                         </p>
                     </li>
 
                     <li className="timeline-item">
                         <h4 className="h4 timeline-item-title">
-                            Preparatory Classes for Engineering Schools (CPGE)
+                            {t("resume.education.degree3.title")}
                         </h4>
-                        <span>2020 — 2021</span>
+                        <span>{t("resume.education.degree3.period")}</span>
                         <p className="timeline-text">
-                            Intensive scientific training in physics, technology, and
-                            engineering sciences.
+                            {t("resume.education.degree3.description")}
                         </p>
                     </li>
 
                     <li className="timeline-item">
                         <h4 className="h4 timeline-item-title">
-                            Scientific Baccalaureate
+                            {t("resume.education.degree4.title")}
                         </h4>
-                        <span>2019</span>
+                        <span>{t("resume.education.degree4.period")}</span>
                         <p className="timeline-text">
-                            Scientific high school diploma with a strong foundation in
-                            mathematics and sciences.
+                            {t("resume.education.degree4.description")}
                         </p>
                     </li>
                 </ul>
@@ -131,7 +120,7 @@ function Resume() {
 
             {/* Skills */}
             <section className="skill">
-                <h3 className="h3 skills-title">Skills</h3>
+                <h3 className="h3 skills-title">{t("resume.skills.title")}</h3>
 
                 <ul className="skills-list content-card">
                     <li className="skills-item">
