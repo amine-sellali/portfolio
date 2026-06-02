@@ -12,7 +12,7 @@ function Portfolio() {
       <section className="portfolio-posts">
         <ul className="portfolio-posts-list">
           <li className="portfolio-post-item">
-            <a href="https://github.com/TON_USERNAME/portfolio" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.aminesellali.com/about" target="_blank" rel="noopener noreferrer">
               <div className="portfolio-content">
                 <p className="portfolio-category">{t("portfolio.projects.project1.category")}</p>
                 <h3 className="h3 portfolio-item-title">{t("portfolio.projects.project1.title")}</h3>

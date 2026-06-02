@@ -7,12 +7,11 @@ export const translations = {
             contact: "Contact"
         },
         sidebar: {
-            role: "Software Developer"
+            role: "Full Stack Developer"
         },
         about: {
             title: "About",
-            intro1: "I'm Amine Sellali, a software developer based in France. I enjoy building clean, maintainable applications and learning new technologies along the way.",
-            intro2: "My background is in software engineering, with experience in fullstack development and a strong interest in scalable systems and well-structured codebases.",
+            intro1: "Fullstack developer with 2 years of experience, engineering graduate from Polytech Lille and MBA holder from IAE Lille. Passionate about software development, open to opportunities in France and internationally.",
             highlights: {
                 title: "Highlights",
                 experience: "YEARS OF EXPERIENCE",
@@ -37,42 +36,37 @@ export const translations = {
             experience: {
                 title: "Experience",
                 job1: {
-                    title: "Software Developer – Chantiers de l'Atlantique",
-                    period: "2024 — Present",
+                    title: "Fullstack Python Developer – Amaris Consulting (Strasbourg, France)",
+                    period: "June 2025 — Present",
                     description: "Development of a web application using Python and Django to manage operational workflows. Implementation of CRUD features, business rules, and data persistence with a focus on code quality and maintainability."
                 },
                 job2: {
-                    title: "Software Developer (TMA) – L'Oréal",
-                    period: "2023 — 2024",
+                    title: "Fullstack C# Developer Intern – CAPGEMINI (Lille, France)",
+                    period: "February 2024 — August 2024",
                     description: "Worked in application maintenance (TMA) on enterprise software. Bug fixing, feature enhancements, and collaboration with functional teams to ensure application stability and performance."
                 },
                 job3: {
-                    title: "Embedded Software Intern – Aerospace Embedded Solutions (Germany)",
-                    period: "2022",
+                    title: "Embedded Systems Engineering Intern – Aerospace Embedded Solutions (Munich, Germany)",
+                    period: "May 2023 — August 2023",
                     description: "Tested and validated software architectures using MATLAB System Composer. Participated in modeling, verification, and documentation of embedded systems in an aerospace context."
-                },
-                job4: {
-                    title: "Research Intern – CRIStAL Laboratory (Lille)",
-                    period: "2021",
-                    description: "Internship at the Computer Science, Signal, and Automatic Control Research Center. Studied embedded systems and participated in research-oriented software and hardware experimentation."
                 }
             },
             education: {
                 title: "Education",
                 degree1: {
-                    title: "MBA – Business School of Management, Lille",
-                    period: "2025",
-                    description: "Master of Business Administration with a focus on management, strategy, and organizational performance."
+                    title: "Master 2 Management & Business Development – IAE Lille",
+                    period: "September 2024 — September 2025",
+                    description: "Master 2 in Management and Business Development, with a focus on strategy, organizational performance, and business leadership."
                 },
                 degree2: {
-                    title: "Master Degree in Embedded Systems – Polytech Lille",
-                    period: "2022 — 2024",
+                    title: "Engineering Degree in Embedded Systems – Polytech Lille",
+                    period: "September 2021 — August 2024",
                     description: "Engineering degree specialized in embedded systems, combining software development, electronics, and system-level design."
                 },
                 degree3: {
-                    title: "Preparatory Classes for Engineering Schools (CPGE)",
-                    period: "2020 — 2021",
-                    description: "Intensive scientific training in physics, technology, and engineering sciences."
+                    title: "CPGE – PTSI (Physics, Technology & Engineering Sciences)",
+                    period: "September 2019 — August 2021",
+                    description: "Two-year intensive scientific preparatory classes for engineering schools, PTSI track."
                 },
                 degree4: {
                     title: "Scientific Baccalaureate",
@@ -81,7 +75,11 @@ export const translations = {
                 }
             },
             skills: {
-                title: "Skills"
+                title: "Skills",
+                softskillsTitle: "Soft Skills",
+                teamwork: "Teamwork",
+                communication: "Communication",
+                adaptability: "Adaptability"
             }
         },
         portfolio: {
@@ -125,12 +123,11 @@ export const translations = {
             contact: "Contact"
         },
         sidebar: {
-            role: "Développeur Logiciel"
+            role: "Développeur Full Stack"
         },
         about: {
             title: "À propos",
-            intro1: "Je suis Amine Sellali, développeur logiciel basé en France. J'aime créer des applications propres et maintenables tout en apprenant de nouvelles technologies en cours de route.",
-            intro2: "Mon parcours est en ingénierie logicielle, avec une expérience en développement fullstack et un fort intérêt pour les systèmes évolutifs et les bases de code bien structurées.",
+            intro1: "Développeur fullstack avec 2 ans d'expérience, ingénieur diplômé de Polytech Lille et titulaire d'un MBA de l'IAE de Lille. Passionné par le développement logiciel, je suis ouvert aux opportunités en France comme à l'étranger.",
             highlights: {
                 title: "Points clés",
                 experience: "ANNÉES D'EXPÉRIENCE",
@@ -155,42 +152,37 @@ export const translations = {
             experience: {
                 title: "Expérience",
                 job1: {
-                    title: "Développeur Logiciel – Chantiers de l'Atlantique",
-                    period: "2024 — Présent",
+                    title: "Développeur Full Stack Python – Amaris Consulting (Strasbourg, France)",
+                    period: "Juin 2025 — Présent",
                     description: "Développement d'une application web utilisant Python et Django pour gérer les flux opérationnels. Implémentation de fonctionnalités CRUD, règles métier et persistance des données avec un accent sur la qualité du code et la maintenabilité."
                 },
                 job2: {
-                    title: "Développeur Logiciel (TMA) – L'Oréal",
-                    period: "2023 — 2024",
+                    title: "Développeur Full Stack C# (Stage) – CAPGEMINI (Lille, France)",
+                    period: "Février 2024 — Août 2024",
                     description: "Travail en maintenance applicative (TMA) sur des logiciels d'entreprise. Correction de bugs, améliorations de fonctionnalités et collaboration avec les équipes fonctionnelles pour assurer la stabilité et les performances des applications."
                 },
                 job3: {
-                    title: "Stagiaire Logiciel Embarqué – Aerospace Embedded Solutions (Allemagne)",
-                    period: "2022",
+                    title: "Ingénieur Systèmes Embarqués (Stage) – Aerospace Embedded Solutions (Munich, Allemagne)",
+                    period: "Mai 2023 — Août 2023",
                     description: "Test et validation d'architectures logicielles utilisant MATLAB System Composer. Participation à la modélisation, la vérification et la documentation de systèmes embarqués dans un contexte aérospatial."
-                },
-                job4: {
-                    title: "Stagiaire Recherche – Laboratoire CRIStAL (Lille)",
-                    period: "2021",
-                    description: "Stage au Centre de Recherche en Informatique, Signal et Automatique. Étude des systèmes embarqués et participation à des expérimentations logicielles et matérielles orientées recherche."
                 }
             },
             education: {
                 title: "Formation",
                 degree1: {
-                    title: "MBA – École de Commerce et Management, Lille",
-                    period: "2025",
-                    description: "Master en Administration des Affaires avec un accent sur le management, la stratégie et la performance organisationnelle."
+                    title: "Master 2 Management et Développement des Entreprises – IAE Lille",
+                    period: "Septembre 2024 — Septembre 2025",
+                    description: "Master 2 spécialisé en management et développement des entreprises, avec un accent sur la stratégie, la performance organisationnelle et le pilotage d'entreprise."
                 },
                 degree2: {
-                    title: "Master en Systèmes Embarqués – Polytech Lille",
-                    period: "2022 — 2024",
+                    title: "Diplôme d'Ingénieur en Systèmes Embarqués – Polytech Lille",
+                    period: "Septembre 2021 — Août 2024",
                     description: "Diplôme d'ingénieur spécialisé en systèmes embarqués, combinant développement logiciel, électronique et conception au niveau système."
                 },
                 degree3: {
-                    title: "Classes Préparatoires aux Grandes Écoles (CPGE)",
-                    period: "2020 — 2021",
-                    description: "Formation scientifique intensive en physique, technologie et sciences de l'ingénieur."
+                    title: "CPGE – PTSI (Physique, Technologie et Sciences de l'Ingénieur)",
+                    period: "Septembre 2019 — Août 2021",
+                    description: "Classes préparatoires aux Grandes Écoles scientifiques, filière PTSI, sur deux ans."
                 },
                 degree4: {
                     title: "Baccalauréat Scientifique",
@@ -199,7 +191,11 @@ export const translations = {
                 }
             },
             skills: {
-                title: "Compétences"
+                title: "Compétences",
+                softskillsTitle: "Soft Skills",
+                teamwork: "Travail en équipe",
+                communication: "Communication",
+                adaptability: "Adaptabilité"
             }
         },
         portfolio: {

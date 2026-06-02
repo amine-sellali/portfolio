@@ -13,10 +13,6 @@ function About() {
                 <p>
                     {t("about.intro1")}
                 </p>
-
-                <p>
-                    {t("about.intro2")}
-                </p>
             </section>
 
             <section className="highlights">
@@ -24,12 +20,12 @@ function About() {
 
                 <ul className="highlights-list has-scrollbar">
                     <li className="highlights-item">
-                        <h2 className="h2 service-item-title">3+</h2>
+                        <h2 className="h2 service-item-title">2+</h2>
                         <p className="service-item-text">{t("about.highlights.experience")}</p>
                     </li>
 
                     <li className="highlights-item">
-                        <h2 className="h2 service-item-title">10+</h2>
+                        <h2 className="h2 service-item-title">5+</h2>
                         <p className="service-item-text">{t("about.highlights.projects")}</p>
                     </li>
 
@@ -50,7 +46,7 @@ function About() {
 
                 <ul className="showcase-posts-list">
                     <li className="showcase-post-item">
-                        <a href="https://github.com/TON_USERNAME" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.aminesellali.com/about" target="_blank" rel="noopener noreferrer">
                             <div className="showcase-content">
                                 <h3 className="h3 showcase-item-title">{t("about.featured.project1.title")}</h3>
                                 <p className="showcase-text">

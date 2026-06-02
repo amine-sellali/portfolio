@@ -51,15 +51,6 @@ function Resume() {
                         </p>
                     </li>
 
-                    <li className="timeline-item">
-                        <h4 className="h4 timeline-item-title">
-                            {t("resume.experience.job4.title")}
-                        </h4>
-                        <span>{t("resume.experience.job4.period")}</span>
-                        <p className="timeline-text">
-                            {t("resume.experience.job4.description")}
-                        </p>
-                    </li>
                 </ul>
             </section>
 
@@ -115,6 +106,7 @@ function Resume() {
                             {t("resume.education.degree4.description")}
                         </p>
                     </li>
+
                 </ul>
             </section>
 
@@ -135,21 +127,31 @@ function Resume() {
 
                     <li className="skills-item">
                         <div className="title-wrapper">
-                            <h5 className="h5">C / C++</h5>
-                            <data value="80">80%</data>
+                            <h5 className="h5">C# / .NET</h5>
+                            <data value="75">75%</data>
                         </div>
                         <div className="skill-progress-bg">
-                            <div className="skill-progress-fill" style={{ width: "80%" }}></div>
+                            <div className="skill-progress-fill" style={{ width: "75%" }}></div>
                         </div>
                     </li>
 
                     <li className="skills-item">
                         <div className="title-wrapper">
-                            <h5 className="h5">Java / Spring</h5>
+                            <h5 className="h5">C / C++</h5>
                             <data value="70">70%</data>
                         </div>
                         <div className="skill-progress-bg">
                             <div className="skill-progress-fill" style={{ width: "70%" }}></div>
+                        </div>
+                    </li>
+
+                    <li className="skills-item">
+                        <div className="title-wrapper">
+                            <h5 className="h5">Java</h5>
+                            <data value="65">65%</data>
+                        </div>
+                        <div className="skill-progress-bg">
+                            <div className="skill-progress-fill" style={{ width: "65%" }}></div>
                         </div>
                     </li>
 
@@ -162,20 +164,37 @@ function Resume() {
                             <div className="skill-progress-fill" style={{ width: "65%" }}></div>
                         </div>
                     </li>
+                </ul>
+            </section>
 
+            {/* Soft Skills */}
+            <section className="skill" style={{ marginTop: "32px" }}>
+                <h3 className="h3 skills-title">{t("resume.skills.softskillsTitle")}</h3>
+
+                <ul className="skills-list content-card">
                     <li className="skills-item">
                         <div className="title-wrapper">
-                            <h5 className="h5">Embedded Systems</h5>
-                            <data value="75">75%</data>
+                            <h5 className="h5">{t("resume.skills.teamwork")}</h5>
+                            <data value="90">90%</data>
                         </div>
                         <div className="skill-progress-bg">
-                            <div className="skill-progress-fill" style={{ width: "75%" }}></div>
+                            <div className="skill-progress-fill" style={{ width: "90%" }}></div>
                         </div>
                     </li>
 
                     <li className="skills-item">
                         <div className="title-wrapper">
-                            <h5 className="h5">Git / GitHub</h5>
+                            <h5 className="h5">{t("resume.skills.communication")}</h5>
+                            <data value="85">85%</data>
+                        </div>
+                        <div className="skill-progress-bg">
+                            <div className="skill-progress-fill" style={{ width: "85%" }}></div>
+                        </div>
+                    </li>
+
+                    <li className="skills-item">
+                        <div className="title-wrapper">
+                            <h5 className="h5">{t("resume.skills.adaptability")}</h5>
                             <data value="90">90%</data>
                         </div>
                         <div className="skill-progress-bg">
