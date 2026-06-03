@@ -26,9 +26,29 @@ function Resume() {
                             {t("resume.experience.job1.title")}
                         </h4>
                         <span>{t("resume.experience.job1.period")}</span>
-                        <p className="timeline-text">
-                            {t("resume.experience.job1.description")}
-                        </p>
+
+                        <ul className="sub-timeline-list">
+                            <li className="sub-timeline-item">
+                                <h5 className="sub-timeline-item-title">{t("resume.experience.job1.sub4.title")}</h5>
+                                <span>{t("resume.experience.job1.sub4.period")}</span>
+                                <p className="sub-timeline-text">{t("resume.experience.job1.sub4.description")}</p>
+                            </li>
+                            <li className="sub-timeline-item">
+                                <h5 className="sub-timeline-item-title">{t("resume.experience.job1.sub3.title")}</h5>
+                                <span>{t("resume.experience.job1.sub3.period")}</span>
+                                <p className="sub-timeline-text">{t("resume.experience.job1.sub3.description")}</p>
+                            </li>
+                            <li className="sub-timeline-item">
+                                <h5 className="sub-timeline-item-title">{t("resume.experience.job1.sub2.title")}</h5>
+                                <span>{t("resume.experience.job1.sub2.period")}</span>
+                                <p className="sub-timeline-text">{t("resume.experience.job1.sub2.description")}</p>
+                            </li>
+                            <li className="sub-timeline-item">
+                                <h5 className="sub-timeline-item-title">{t("resume.experience.job1.sub1.title")}</h5>
+                                <span>{t("resume.experience.job1.sub1.period")}</span>
+                                <p className="sub-timeline-text">{t("resume.experience.job1.sub1.description")}</p>
+                            </li>
+                        </ul>
                     </li>
 
                     <li className="timeline-item">

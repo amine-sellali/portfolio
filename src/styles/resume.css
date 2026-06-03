@@ -120,6 +120,66 @@
 }
 
 /* ============================= */
+/* SUB-TIMELINE                  */
+/* ============================= */
+
+.sub-timeline-list {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 30px;
+}
+
+.sub-timeline-list::before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 6px;
+    bottom: 6px;
+    width: 1px;
+    background: var(--jet);
+}
+
+.sub-timeline-item {
+    position: relative;
+}
+
+.sub-timeline-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.sub-timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -24px;
+    top: 6px;
+    width: 6px;
+    height: 6px;
+    background: var(--light-gray-70);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px var(--eerie-black-2);
+}
+
+.sub-timeline-item-title {
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.sub-timeline-list span {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 0.78rem;
+    color: var(--light-gray-70);
+}
+
+.sub-timeline-text {
+    font-size: 0.85rem;
+    line-height: 1.6;
+    color: var(--light-gray);
+}
+
+/* ============================= */
 /* SKILLS                        */
 /* ============================= */
 

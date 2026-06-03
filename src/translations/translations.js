@@ -36,9 +36,29 @@ export const translations = {
             experience: {
                 title: "Experience",
                 job1: {
-                    title: "Fullstack Python Developer – Amaris Consulting (Strasbourg, France)",
+                    title: "Full Stack Python Developer – Amaris Consulting (Strasbourg, France)",
                     period: "June 2025 — Present",
-                    description: "Development of a web application using Python and Django to manage operational workflows. Implementation of CRUD features, business rules, and data persistence with a focus on code quality and maintainability."
+                    description: "",
+                    sub1: {
+                        title: "PTN – Work Permit Management App (Chantiers de l'Atlantique)",
+                        period: "June 2025 — December 2025",
+                        description: "Development from scratch of a Python/Django web application to manage employee work permits on naval shipyards. Full CRUD, Django Rest Framework, Docker, MinIO for file storage. Unit testing and functional test documentation. Agile teamwork with Jira, Git and Confluence. Regular client exchanges."
+                    },
+                    sub2: {
+                        title: "End-to-End Test Automation – Playwright",
+                        period: "January 2026",
+                        description: "Implementation of automated end-to-end tests with Playwright to ensure the reliability and non-regression of the PTN application."
+                    },
+                    sub3: {
+                        title: "Azure Monitoring Dashboard – Intrusion Detection System",
+                        period: "February 2026 — March 2026",
+                        description: "Built a monitoring dashboard for an ML-based silhouette intrusion detection system. Used Azure Monitor to track VM health, Docker images, and blob storage. Python scripts to collect and format logs (CPU, memory, failures). Alerts stored via a Logic App in MySQL, served by a Node.js backend and displayed on a ReactJS frontend."
+                    },
+                    sub4: {
+                        title: "PTN v2 – Expanding to New Permit Types",
+                        period: "April 2026 — Present",
+                        description: "Development of the second version of the PTN application, extending the scope to cover additional types of work permits."
+                    }
                 },
                 job2: {
                     title: "Fullstack C# Developer Intern – CAPGEMINI (Lille, France)",
@@ -154,7 +174,27 @@ export const translations = {
                 job1: {
                     title: "Développeur Full Stack Python – Amaris Consulting (Strasbourg, France)",
                     period: "Juin 2025 — Présent",
-                    description: "Développement d'une application web utilisant Python et Django pour gérer les flux opérationnels. Implémentation de fonctionnalités CRUD, règles métier et persistance des données avec un accent sur la qualité du code et la maintenabilité."
+                    description: "",
+                    sub1: {
+                        title: "PTN – Application de gestion des permis de travail (Chantiers de l'Atlantique)",
+                        period: "Juin 2025 — Décembre 2025",
+                        description: "Développement from scratch d'une application web Python/Django pour gérer les permis de travail des employés sur les chantiers navals. CRUD complet, Django Rest Framework, Docker, MinIO pour le stockage de fichiers. Rédaction de tests unitaires et de cahiers de tests fonctionnels. Travail en équipe Agile avec Jira, Git et Confluence. Échanges réguliers avec le client."
+                    },
+                    sub2: {
+                        title: "Automatisation des tests E2E – Playwright",
+                        period: "Janvier 2026",
+                        description: "Mise en place de tests end-to-end automatisés avec Playwright pour garantir le bon fonctionnement et la non-régression de l'application PTN."
+                    },
+                    sub3: {
+                        title: "Dashboard de monitoring Azure – Système de détection d'intrusion",
+                        period: "Février 2026 — Mars 2026",
+                        description: "Création d'un dashboard de monitoring pour un système de détection d'intrusion par analyse de silhouettes (Machine Learning). Azure Monitor pour surveiller la VM, les images Docker et les blobs. Scripts Python pour collecter et mettre en forme les logs (CPU, mémoire, dysfonctionnements). Alertes stockées via une Logic App en base MySQL, exposées par un backend Node.js et affichées sur un front ReactJS."
+                    },
+                    sub4: {
+                        title: "PTN v2 – Extension à de nouveaux types de permis",
+                        period: "Avril 2026 — Présent",
+                        description: "Développement de la version 2 de l'application PTN, avec élargissement du périmètre à de nouveaux types de permis de travail."
+                    }
                 },
                 job2: {
                     title: "Développeur Full Stack C# (Stage) – CAPGEMINI (Lille, France)",
